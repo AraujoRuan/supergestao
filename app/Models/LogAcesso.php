@@ -5,10 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-
-class SiteContato extends Model
+class LogAcesso extends Model
 {
-    protected $fillable = ['nome','telefone','email','motivo_ccontato_id','mensagem'];
-
     use HasFactory;
+    protected $fillable = ['log'];
 }
